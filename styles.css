@@ -5,6 +5,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+    background-color: wheat;
+}
+
 #navbar {
     background-color: darkgreen;
     position: fixed;
@@ -42,4 +46,65 @@
 
 #navbar ul li a.active {
     background-color: green;
+}
+
+#title {
+    margin-top: 6.5vw;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#my-info {
+    display: flex;
+    align-items: center;
+    margin-top: 4vw;
+}
+
+#my-info p{
+    font-size: 2.3rem;
+    margin-top: 1.5vw;
+    margin-right: 4vw;
+}
+
+#my-photo {
+    display: inline;
+    width: 25vw;
+    height: 28vw;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 5vw;
+    margin-right: 3vw;
+}
+
+#academic-interests {
+    margin-top: 5vw;
+}
+
+#academic-interests h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 5vw;
+}
+
+#academic-interests ul {
+    margin-left: 17.5vw;
+}
+
+#academic-interests ul li {
+    font-size: 2.5rem;
+    margin-bottom: 3vw;
+}
+
+#academic-interests ul li h5 {
+    font-size: 2.3rem;
+}
+
+#academic-interests ul li p {
+    font-size: 2rem;
+    margin-right: 15vw;
+    margin-top: 1vw;
+}
+
+.amp {
+    font-family: sans-serif;
 }
