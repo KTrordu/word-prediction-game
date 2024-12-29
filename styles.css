@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#navbar {
+    background-color: darkgreen;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#navbar ul li {
+    margin: 2vw;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 1vw;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    border-radius: 0.5rem;
+}
+
+#navbar ul li a:hover {
+    background-color: green;
+    transition: all 0.5s ease-in-out;
+}
+
+#navbar ul li a.active {
+    background-color: green;
+}
