@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="game-styles.css" />
     <title>Word Prediction Game</title>
   </head>
   <body>
@@ -15,5 +16,32 @@
         </ul>
       </nav>
     </header>
+
+    <h1 id="title" class="game-title">Word Prediction Game</h1>
+
+    <div id="game-cards">
+      <div id="u-card"></div>
+      <div id="n-card"></div>
+      <div id="i-card"></div>
+      <div id="t-card"></div>
+      <div id="y-card"></div>
+    </div>
+
+    <div id="score-lives">
+      <h1 id="score">Score :</h1>
+      <h1 id="lives">Lives :</h1>
+    </div>
+
+    <div id="prediction">
+      Prediction :&nbsp<input
+        type="text"
+        id="prediction-input"
+        placeholder=" Enter a letter or word"
+      />
+    </div>
+
+    <div id="submit">
+      <button id="submit-button">Submit</button>
+    </div>
   </body>
 </html>

@@ -1,0 +1,71 @@
+.game-title {
+    text-align: center;
+    margin-top: 2vw;
+    color: rgb(104, 37, 6);
+}   
+
+#game-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vw;
+}
+
+#game-cards div {
+    margin: 2vw;
+    border: 0.15vw solid black;
+    width: 10vw;
+    height: 10vw;
+    display: inline;
+    background-color: darkgreen;
+}
+
+#score-lives {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1vw;
+}
+
+#score-lives h1 {
+    margin-left: 17vw;
+    margin-right: 25vw;
+}
+
+#prediction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+#prediction-input {
+    background-color: rgb(252, 240, 218);
+    border: 0.15vw solid black;
+    height: 2vw;
+}
+
+#submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+#submit-button {
+    background-color: darkred;
+    color: white;
+    border: 0.15vw solid black;
+    height: 2vw;
+    width: 12vw;
+    transition: all 0.3s ease-in-out;
+}
+
+#submit-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#submit-button:active {
+    transform: scale(0.9);
+}
