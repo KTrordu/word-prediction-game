@@ -20,16 +20,32 @@
     <h1 id="title" class="game-title">Word Prediction Game</h1>
 
     <div id="game-cards">
-      <div id="u-card"></div>
-      <div id="n-card"></div>
-      <div id="i-card"></div>
-      <div id="t-card"></div>
-      <div id="y-card"></div>
+      <div id="u-card">
+        <img id="u" src="img/U.svg" alt="U">
+      </div>
+      <div id="n-card">
+        <img id="n" src="img/N.svg" alt="N">
+      </div>
+      <div id="i-card">
+        <img id="i" src="img/I.svg" alt="I">
+      </div>
+      <div id="t-card">
+        <img id="t" src="img/T.svg" alt="T">
+      </div>
+      <div id="y-card">
+        <img id="y" src="img/Y.svg" alt="Y">
+      </div>
     </div>
 
     <div id="score-lives">
-      <h1 id="score">Score :</h1>
-      <h1 id="lives">Lives :</h1>
+      <h1 id="score">Score : 0</h1>
+      <h1 id="lives">Lives :
+        <span>
+          <img id="life-1" src="img/heart.svg" alt="Life">
+          <img id="life-2" src="img/heart.svg" alt="Life">
+          <img id="life-3" src="img/heart.svg" alt="Life">
+        </span>
+      </h1>
     </div>
 
     <div id="prediction">
@@ -43,5 +59,11 @@
     <div id="submit">
       <button id="submit-button">Submit</button>
     </div>
+
+    <div id="reset">
+      <button id="reset-button">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>

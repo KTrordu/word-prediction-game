@@ -20,6 +20,12 @@
     background-color: darkgreen;
 }
 
+#game-cards img {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+}
+
 #score-lives {
     display: flex;
     align-items: center;
@@ -28,8 +34,17 @@
 }
 
 #score-lives h1 {
-    margin-left: 17vw;
-    margin-right: 25vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+#score-lives span {
+    vertical-align: middle;
+}
+
+#score-lives img {
+    display: inline;
+    width: 2.4vw;
 }
 
 #prediction {
@@ -46,10 +61,17 @@
 }
 
 #submit {
+    margin-top: 2vw;
+}
+
+#reset {
+    margin-top: 0.5vw;
+}
+
+#submit, #reset {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2vw;
 }
 
 #submit-button {
@@ -61,11 +83,20 @@
     transition: all 0.3s ease-in-out;
 }
 
-#submit-button:hover {
+#reset-button {
+    background-color: black;
+    color: white;
+    border: 0.15vw solid black;
+    height: 2vw;
+    width: 12vw;
+    transition: all 0.3s ease-in-out;
+}
+
+#submit-button:hover, #reset-button:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
 
-#submit-button:active {
+#submit-button:active, #reset-button:active {
     transform: scale(0.9);
 }
